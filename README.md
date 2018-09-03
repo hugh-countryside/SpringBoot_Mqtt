@@ -18,5 +18,6 @@ spring boot 整合mqtt  简单实现了服务端和客户端模块，简单易�
 7. 推荐一个mqtt的客户端，打开googel应用商店，搜索MQTTlens，然后安装该插件即可
 
 ## mqtt服务配置
-1.执行controller 的时候 http://localhost:8085/message/push?topic=hello  或者 http://localhost:8085/message/push?topic=hello/aaa/aa之类的
-客户端才能接受到
+1.执行controller 的时候 http://localhost:8085/message/push?topic=hello  或者 http://localhost:8085/message/push?topic=hello/aaa/aa 之类的
+ 
+ 客户端订阅的是hello/#，只有相应的topic,控制台才会打印
