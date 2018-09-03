@@ -1,0 +1,13 @@
+server:
+  port: 8085
+spring:
+  mqtt:
+    url: tcp://localhost:61613
+    host: tcp://localhost:61613
+    username: admin
+    password: password
+    qos: 1
+    client:
+      id: demo
+    default:
+      topic: topic
